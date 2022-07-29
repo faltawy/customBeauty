@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
-
+import "@fontsource/ubuntu"
 function App() {
   return (
     <Routes>

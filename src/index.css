@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind utilities;
 @tailwind components;
+
+@base {
+    body {
+        font-family: "Ubuntu", sans-serif;
+    }
+}
+
+.flex-center {
+    @apply flex items-center justify-center
+}
+
+.clip__heroImg {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 90%, 0 100%);
+}
